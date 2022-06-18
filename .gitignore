@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/QuickAcount/QuickAcount.csproj.user
+/QuickAcount/obj
+/QuickAcount/bin/Debug/net6.0-windows
