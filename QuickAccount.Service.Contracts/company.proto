@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "QuickAccount.Service";
+
+package Company;
+
+service CompanyService {
+    rpc RegisterNewCompany (RegisterCompanyRequest) returns (RegisterCompanyResponse);
+    
+}
+
+message RegisterCompanyRequest {
+}
+
+message RegisterCompanyResponse {
+}
