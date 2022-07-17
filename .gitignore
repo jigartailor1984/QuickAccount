@@ -3,7 +3,6 @@
 ################################################################################
 
 /.vs
-/QuickAcount/QuickAcount.csproj.user
-/QuickAcount/obj
-/QuickAcount/bin/Debug/net6.0-windows
-/QuickAcount/bin
+/QuickAccount/QuickAcount.csproj.user
+/QuickAccount/obj
+/QuickAccount/bin
