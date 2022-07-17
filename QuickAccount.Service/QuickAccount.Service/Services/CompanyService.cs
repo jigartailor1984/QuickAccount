@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace QuickAccount.Service.Services
 {
-    public class CompanyService //: Service.CompanyService.CompanyServiceBase
+    public class CompanyService : Service.CompanyService.CompanyServiceBase
     {
-        //public override Task<RegisterCompanyResponse> RegisterNewCompany(RegisterCompanyRequest request, ServerCallContext context)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public override Task<RegisterCompanyResponse> RegisterNewCompany(RegisterCompanyRequest request, ServerCallContext context)
+        {
+            RegisterCompanyResponse response = new RegisterCompanyResponse { Error = "Api Not Implemented Yet" };
+
+            return Task.FromResult(response);
+        }
     }
 }

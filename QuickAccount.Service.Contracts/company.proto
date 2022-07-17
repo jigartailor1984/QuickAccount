@@ -13,4 +13,5 @@ message RegisterCompanyRequest {
 }
 
 message RegisterCompanyResponse {
+    string error = 1;
 }
