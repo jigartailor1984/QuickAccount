@@ -1,5 +1,7 @@
-# QuickAccount
+# Quick Account
 
-## QuickAccount Application
+## Quick Account Application
 
-## QuickAccount Service
+## Quick Account Service
+
+## Quick Account Service Contract
