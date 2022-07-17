@@ -3,6 +3,8 @@
 ################################################################################
 
 /.vs
-/QuickAccount/QuickAcount.csproj.user
-/QuickAccount/obj
-/QuickAccount/bin
+/QuickAccount/.vs
+/QuickAccount/QuickAccount/bin
+/QuickAccount/QuickAccount/obj
+/QuickAccount.Service/.vs
+/QuickAccount.Service/QuickAccount.Service/obj
