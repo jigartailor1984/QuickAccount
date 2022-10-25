@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "error.proto";
+
 option csharp_namespace = "QuickAccount.Service";
 
 package Company;
@@ -10,8 +12,18 @@ service CompanyService {
 }
 
 message RegisterCompanyRequest {
+    string name = 1;
+    string registrationNumber = 2;
+    string address = 3;
+    string pAN = 4;
+    string tAN = 5;
+    string contact = 6;
+    string email = 7;
+    string webSite = 8;
+
 }
 
 message RegisterCompanyResponse {
-    string error = 1;
+    int32 id = 1;
+    ErrorResponse error = 2;
 }

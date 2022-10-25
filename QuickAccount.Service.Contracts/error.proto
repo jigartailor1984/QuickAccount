@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "QuickAccount.Service";
+
+package Company;
+
+message ErrorResponse {
+    string message = 1;
+    int32 errorCode = 2;
+}
+

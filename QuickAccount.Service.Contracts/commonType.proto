@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace="QuickAccount.Service.Types";
+
+package company;
+
+message CompanyInfo {
+    int32 id = 1;
+    string name = 2;
+    string registrationNumber = 3;
+    string address = 4;
+    string pAN = 5;
+    string tAN = 6;
+    string contact = 7;
+    string email = 8;
+    string webSite = 9;
+    bool isOpen = 10;
+}
+
+message UserInfo {
+    int32 id = 1;
+    string userName = 2;
+    string password = 3;
+}

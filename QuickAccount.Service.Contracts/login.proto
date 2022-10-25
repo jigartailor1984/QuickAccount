@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "QuickAccount.Service";
+
+package Company;
+
+import "company.proto";
+
+service LoginService {
+    rpc RegisterUser (RegisterUserRequest) returns (RegisterUserResponse);
+
+    rpc Login (LoginRequest) returns (LoginResponse);
+}
+
