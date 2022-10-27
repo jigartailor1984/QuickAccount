@@ -14,8 +14,16 @@ message CompanyInfo {
     string contact = 7;
     string email = 8;
     string webSite = 9;
-    bool isOpen = 10;
+    string GSTNo = 10;
+    bool isOpen = 11;
 }
+message CompanyOffice {
+    int32 id = 1;
+    string Name = 2;
+    string Address = 3;
+}
+
+
 
 message UserInfo {
     int32 id = 1;
